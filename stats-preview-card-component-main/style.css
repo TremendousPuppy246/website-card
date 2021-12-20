@@ -36,7 +36,6 @@ span {
 display: flex;
 text-indent: 25px;
 font-family: 'Inter';
-text-align: left;
 }
 
 .info p {
@@ -48,7 +47,7 @@ text-align: left;
     opacity: 0.3;
 }
 
-.image-container {
+.image {
     background: hsl(277, 64%, 61%);
 }
 
