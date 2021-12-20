@@ -1,61 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lexend+Deca&display=swap');
-.body{
+body{
     background-color: hsl(233,47%, 7%);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    color: #fff;
 }
 
-h1, h2 {
-    font-family: 'Inter', 'Lexend Deca';
-    color: hsl(0%, 0%, 100%);
+main {
+    display: flex;
+    width: 70vw;
+    margin-top: 10%;
+    font-family: 'Inter';
+    background-color: hsl(244, 38%, 16%);
 }
 
 span {
     color: hsl(277, 64%, 61%);
 }
-
-.main-part {
-    display: flex;
-    width: 67.5rem;
-}
-
-.left-part {
-    border-radius: 0.938rem 0 0 0.938rem;
-    background-color: hsl(244, 38%, 16%) ;
-    padding: 2rem 4.375rem;
-}
-
-.description left-part {
-    display: flex;
-    font-family: 'Inter';
-}
-
-.description left-part p {
-    color: hsla(0, 0%, 100%, 0.75);
-  font-family: 'Inter', 'Lexend Deca';
-  font-weight: 400;
-  font-size: 0.938rem;
-  width: 90%;
-}
-
-.statistics left-part {
+.content-part{
+    display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    height: auto;
+    background-color: hsl(244, 38%, 16%);
+    text-align: left;
 }
 
-.statistics left-part div {
-    width: auto;
-    margin: 1.25rem 0;
-    text-align: center;
+.content-part p {
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: justify;
+}
+.info{
+display: flex;
+text-indent: 25px;
+font-family: 'Inter';
+text-align: left;
 }
 
-.right-part {
-    width: 100%;
-    border-radius: 0.938rem 0.938rem 0 0;
+.info p {
+    font-family: 'Lexend Deca';
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
-.desktop-pic {
-    display: flex;
+.overlay {
+    opacity: 0.3;
+}
+
+.image-container {
+    background: hsl(277, 64%, 61%);
+}
+
+.content p {
+    color: hsla(0, 0%, 100%, 0.75);
 }
